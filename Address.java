@@ -35,10 +35,9 @@ public class Address {
     }
 
     public String toString() {
-        return "{" +
-                " zipCode='" + getZipCode() + "'" +
-                ", country='" + getCountry() + "'" +
-                ", city='" + getCity() + "'" +
+        return "zipCode= " + getZipCode() + "\n" +
+                "country= " + getCountry() + "\n" +
+                "city= " + getCity() + "\n" +
                 "}";
     }
 
